@@ -1,0 +1,71 @@
+.header{
+    text-align: center;
+}
+
+.headerButton{
+    width: 50px;
+    position: absolute;
+}
+
+.container{
+    margin: 10px 0 0 490px;
+}
+.shift_conteiner{
+    margin: 10px 0 0 20px;
+}
+
+.calendar{
+    width: 500px;
+}
+
+.card {
+    background: white;
+    
+    border-radius: 10px;
+    
+}
+
+.viewChart{
+    display: none;
+}
+
+.viewChart_block{
+    display: block;
+}
+
+.table{
+    margin: 10px 0 0 0;
+    overflow: auto;
+    display: block;
+    height: 350px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    border: 1px solid black;
+}
+.grid-container-credit{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    border: 1px solid black;
+}
+
+.head{
+    text-align: center;
+    padding: 3px;
+    font-weight: bold;
+    
+}
+
+.cell{
+    
+    text-align: center;
+}
+
+.result{
+    margin: 30px 0 0 30px;
+}
+
